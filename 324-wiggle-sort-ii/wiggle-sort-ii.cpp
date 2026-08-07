@@ -9,7 +9,7 @@ public:
 
         for (int i = 0; i < n; i++) {
             if (i % 2 == 0)
-                nums[i] = temp[mid--];
+             nums[i] = temp[mid--];
             else
                 nums[i] = temp[high--];
         }
